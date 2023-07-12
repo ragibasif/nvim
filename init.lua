@@ -23,8 +23,10 @@ vim.opt.signcolumn = "yes"
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.termguicolors = true
+vim.opt.background = "dark"
 vim.opt.timeoutlen = 400
 vim.opt.undofile = true
+vim.opt.swapfile = true
 
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
@@ -34,6 +36,8 @@ vim.opt.wildmode = "longest,list"
 vim.opt.cursorcolumn = true
 vim.opt.cursorline = true
 vim.opt.colorcolumn = "80"
+
+vim.opt.scrolloff = 8
 
 vim.opt.updatetime = 250
 
